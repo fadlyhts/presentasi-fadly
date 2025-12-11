@@ -1,0 +1,171 @@
+Ahmad Fadli Hutasuhut
+
+(+62) 85156121852 • fadlyhutasuhut1305@gmail.com •https://www.linkedin.com/in/ahmad-fadli-hutasuhut-0768ba17b/
+•https://github.com/fadlyhts
+
+	Saya memiliki latar belakang pendidikan Sistem dan Teknologi Informasi di Universitas Negeri Jakarta (IPK 3.84) dan berpengalaman di bidang Fullstack Development serta Artificial Intelligence. Saya memiliki kemampuan beradaptasi yang cepat, berpikir kritis, serta terbukti efektif dalam memecahkan masalah teknis, baik dalam tim maupun individu. Selama berkuliah, saya aktif mengembangkan kompetensi melalui program MSIB Fullstack Web Developer di Dicoding Indonesia dan bootcamp AI di Infinite Learning Indonesia. Saya juga memiliki pengalaman magang di PT. Agincourt Resources sebagai IT & System Intern, di mana saya berhasil mengembangkan sistem Passenger Counting berbasis IoT. Saat ini, saya berkontribusi sebagai intern di Divisi Pengadaan dan Teknologi Informasi di PT. Perkebunan Nusantara I. Di sini, saya dipercaya menangani proyek strategis meliputi: pengembangan Sistem PICA Kateko (Dashboard monitoring kinerja pabrik teh) menggunakan Laravel 12 dan Vue.js, Membangun Chatbot AI cerdas berbasis RAG di WhatsApp, serta optimalisasi sistem Aset Divestasi (Monika) berbasis CodeIgniter 4 untuk pengelolaan dan pelaporan aset yang lebih efisien.
+
+PENDIDIKAN
+ 
+S1 Sistem dan Teknologi Informasi - Universitas Negeri Jakarta
+2022 - Sekarang
+IPK: 3.84/4.00																		
+PENGALAMAN 
+ 
+Divisi Pengadaan dan Teknologi Informasi Intern – PT. Perkebunan Nusantara I
+Juli 2025 – Sekarang
+Proyek : 
+•	PICA Kateko (Karet, Teh, Kopi) https://picakateko.holding-perkebunan.com/ 
+- Mengembangkan modul Off Farm Teh pada sistem PICA KATEKO Holding, meliputi Dashboard Eksekutif, Self Assessment Pabrik Teh, Problem Identification, dan Corrective Action untuk monitoring kinerja pabrik teh.
+- Membangun fitur Self Assessment dengan analisis Zona Kuadran, Klusterisasi, dan Ranking Pabrik Teh untuk evaluasi performa produk teh di level pabrik dan regional.
+- Mengimplementasikan sistem Problem Identification & Corrective Action (PICA) dengan fitur input, approval workflow, dan scoring untuk identifikasi masalah dan tindakan perbaikan di pabrik teh
+- Berkolaborasi dengan PTPN 4, dan Holding Perkebunan dalam pengembangan sistem terintegrasi untuk peningkatan kualitas produksi teh.
+- Mengembangkan fitur pendukung seperti Harga Rata-Rata Tertimbang (SDHI/SDBI) dan Sentimen Produk untuk analisis harga dan kualitas teh.
+- Tech Stack: Laravel 12, Vue.js 3, Inertia.js, Tailwind CSS, ApexCharts, Leaflet Maps, MySQL
+
+•	Aset Divestasi – (Monika) https://aset-dives-dev.ptpn1.co.id/
+-  Continuous improvement pengelolaan aset divestasi berbasis CodeIgniter 4 dengan Bootstrap 5 dan MySQL. 
+
+Feature Development:
+- Soft Delete & Restore - Implementasi fitur hapus sementara dengan trash view, memungkinkan untuk dapat mengembalikan data yang terhapus.
+- Export Excel - Fitur export data ke Excel (.xlsx) menggunakan PHPSpreadsheet dengan dukungan filter dinamis (Region, RKAP, Status).
+- Advanced Filtering System - Filter multi-kriteria: lokasi regional, periode RKAP, dan status progress dengan real-time data refresh
+Enhanced Save Functionality - Action type handling dengan user feedback dan validasi input
+
+UI/UX Improvements:
+- Bootstrap Migration - Migrasi framework dari Bootstrap 4.1.0 ke Bootstrap 5.3.8.
+- Modern Dashboard - Redesign tampilan dengan card-based layout, gradient backgrounds, dan shadow effects
+- Progress Tracking Visual - Progress circle dengan warna dinamis dan timeline view untuk tracking histori perubahan
+- Responsive Design - Optimasi tampilan untuk desktop, tablet, dan mobile devices
+
+Bug Fixing & Optimization:
+- Optimasi query logic untuk filtering periode RKAP dan data retrieval.
+- Fix kalkulasi persentasi progress dan upload functionality.
+- Perbaikan format number pada form input dan total pembayaran.
+- Fix logic fungsi except_add dan improved error handling.
+
+•	Chatbot AI Berbasis RAG Dengan WhatsApp
+- Membangun sistem chatbot WhatsApp cerdas dengan kemampuan Retrieval-Augmented Generation (RAG) untuk menjawab pertanyaan berdasarkan knowledge base dokumen perusahaan.
+
+Tech Stack:
+- Backend: Python, FastAPI, LangChain, SQLAlchemy, Redis, Python-RQ
+- AI/ML: OpenAI GPT, Google Gemini, Qdrant Vector Database
+- Frontend: Vue 3, TypeScript, TailwindCSS, Pinia, Chart.js
+- Infrastructure: Docker, MySQL, WAHA (WhatsApp HTTP API)
+
+Key Features:
+- RAG pipeline untuk intelligent document retrieval dan contextual response generation
+- Document processing dengan support PDF, DOCX, dan OCR untuk scanned documents
+- Integrasi WhatsApp via webhook untuk real-time messaging
+- Admin dashboard dengan monitoring statistik dan visualisasi data
+- Background job processing dengan Redis queue
+- Rate limiting dan security validation
+
+•	SI BAKTI - Vendor 
+- Aplikasi web fullstack untuk pengelolaan dokumen penyidikan yang mencakup manajemen Laporan Polisi, Surat Perintah Penyidikan, Berita Acara, dan Aset. Dilengkapi fitur upload & preview dokumen PDF serta sistem autentikasi dengan role-based access control.
+- Tech Stack - React, Vite, Express.js, MySQL
+
+•	Rubber Leaf Disease API
+- Fine-tuned model ConvNextV2 untuk mengidenfikasi penyakit daun karet.
+- Mengembangkan sebuah RESTful API untuk identifikasi penyakit daun karet mengguna FastAPI.
+- Integrasi dengan Google Gemini API untuk memberikan rekomendasi penanganan yang relevan dengan penyakit.
+- Deploy web API menggunakan docker.
+
+IT & Systems Intern - PT. Agincourt Resources
+April 2025 – Juli 2025
+Tanggung Jawab Utama:
+•	Memberikan layanan dukungan IT yang baik kepada user sesuai dengan SOP, mendiagnosis dan menyelesaikan permasalahan teknis pengguna termasuk masalah PC, penggantian perangkat keras, dan konfigurasi sistem.
+•	Melakukan pemeliharaan dan upgrade perangkat keras meliputi penggantian RAM, instalasi hard disk ataupun ssd, dan pengaturan perangkat.
+•	Melaksanakan instalasi ulang sistem operasi Windows dan prosedur pemulihan system.
+•	Mendiagnosis dan mengatasi masalah konektivitas jaringan untuk memastikan kelancaran operasional bisnis.
+Proyek Infrastruktur:
+•	Merancang dan merakit kabel LAN sesuai standar industri untuk performa jaringan yang optimal.
+•	Memasang dan mengkonfigurasi access point untuk memperluas jangkauan jaringan di seluruh fasilitas.
+•	Mengimplementasikan infrastruktur jaringan dengan menghubungkan perangkat ke switch dan membangun sistem manajemen kabel yang terstruktur.
+•	Menciptakan solusi structured cabling untuk mendukung arsitektur jaringan.
+Proyek Akhir - Passenger Counting System:
+•	Mengembangkan sistem penghitung penumpang berbasis IoT menggunakan mikrokontroler ESP32 yang terintegrasi dengan teknologi RFID.
+•	Membangun antarmuka front-end yang responsif menggunakan framework React untuk visualisasi data real-time.
+•	Merancang dan mengimplementasikan backend RESTful API menggunakan Node.js dengan framework Express.
+•	Berhasil menyelesaikan solusi end-to-end yang mendemonstrasikan kemampuan pengembangan full-stack dan integrasi IoT
+
+Artificial Intelligence Cohort - Infinite Learning Indonesia
+Maret 2025 – Juli 2025
+•	Melakukan pembersihan, transformasi, dan analisis data eksploratif (EDA) serta visualisasi data dengan Matplotlib dan Seaborn untuk mendukung pengambilan keputusan bisnis.
+•	Membangun dan menerapkan model machine learning serta deep learning untuk klasifikasi, prediksi, dan rekomendasi.
+•	Mengembangkan model AI pada bidang NLP, Computer Vision, Time-Series Forecasting, dan Recommendation System.
+•	Mengembangan RAG (Retrieval Augmented Generation) dengan LLM dan di deploy ke Huggingface
+•	Melakukan deployment model AI menggunakan Flask agar dapat diakses melalui web service.
+
+Front-End Web and Back-End Cohort - Dicoding x Kampus Merdeka Batch 7
+September 2024 – Desember 2024
+Projek Individu :
+•	Membangun aplikasi web seperti Responsive Portfolio, Notes App, Bookshelf App, dan Restaurant Catalog menggunakan custom web components, RESTful APIs, dan PWA testing untuk fitur offline.
+•	Menguasai desain responsif dengan Flexbox, media queries, dan meta viewport configurations untuk pengalaman pengguna yang optimal di berbagai perangkat.
+•	Meningkatkan keterampilan kolaborasi, pemecahan masalah, dan komunikasi dalam mengembangkan proyek web serta memberikan solusi yang efektif.
+Projek Akhir : 
+•	Membuat Web Aplikasi Jakarta Park Finder :
+Aplikasi web untuk mencari dan mengelola taman kota di Jakarta, dikembangkan menggunakan React (Frontend) dan Node.js dengan Express.js (Backend).
+
+PENGALAMAN ORGANISASI
+ 
+GDSC Universitas Negeri Jakarta      
+November, 2023 – Sekarang                                                                                                            
+Jabatan : Anggota
+
+PROJEK
+ 
+  Web Restaurant App
+•	Menggunakan dengan HTML, CSS, JavaScript
+•	Menggunakan konfigurasi Webpack untuk membangun dan membundle aplikasi.
+•	Menggunakan Jest dan CodeceptJS untuk pengujian unit dan end-to-end.
+•	Menggunakan Workbox untuk strategi caching dan meningkatkan performa aplikasi.
+
+Jakarta Park Finder
+•	Dirancang untuk menemukan dan mengelola taman-taman umum di Jakarta.
+•	Frontend dibangun dengan React dan backend dibangun menggunakan Node.js dengan framework Express.
+•	Menggunakan database MySQL
+
+Sistem Klasifikasi Stunting Balita
+•	Sistem klasifikasi status stunting pada balita dirancang menggunakan Machine Learning untuk mendeteksi status gizi balita.
+•	Menggunakan framework Flask untuk membangun aplikasi web.
+
+Sistem Klasifikasi Sentimen Pengguna 
+Aplikasi ini mengklasifikasikan teks input menjadi sentimen positif atau negative.
+•	Aplikasi web dibuat menggunakan framework Flask.
+•	Menggunakan model random forest, KNN, Naïve Bayes untuk prediksi.
+
+SERTIFIKAT
+ 
+Magang Studi Independen Bersertifikat 
+Kampus Merdeka
+
+Menjadi Front-End Web Developer Expert
+Dicoding Indonesia
+Issued Nov 2024 · Expires Nov 2027
+https://www.dicoding.com/certificates/53XEQ366VXRN
+
+Belajar Fundamental Front-End Web Development
+Dicoding Indonesia
+Issued Oct 2024 · Expires Oct 2027
+https://www.dicoding.com/certificates/N9ZOY63GRPG5
+
+Belajar Back-End Pemula dengan JavaScript
+Dicoding Indonesia 
+Issued Nov 2024 · Expires Nov 2027
+https://www.dicoding.com/certificates/KEXLYV34MZG2
+
+Belajar Dasar Pemrograman JavaScript
+Dicoding Indonesia 
+Issued Oct 2024 · Expires Oct 2027
+https://www.dicoding.com/certificates/1OP84677LZQK
+
+Belajar Membuat Front-End Web untuk Pemula 
+Dicoding Indonesia 
+Issued Oct 2024 · Expires Oct 2027 
+https://www.dicoding.com/certificates/2VX341D7JZYQ
+
+Belajar Dasar Pemrograman Web
+Dicoding Indonesia 
+Issued Sep 2024 · Expires Sep 2027
+https://www.dicoding.com/certificates/NVP741164PR0
