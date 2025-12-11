@@ -95,10 +95,22 @@ const projects = [
   }
 ]
 
+const preloadImages = (images) => {
+  images.forEach(src => {
+    const img = new Image()
+    img.src = src
+  })
+}
+
 const openModal = (project) => {
   selectedProject.value = project
   currentImageIndex.value = 0
   document.body.style.overflow = 'hidden'
+  
+  // Preload all images for faster navigation
+  if (project.images && project.images.length > 0) {
+    preloadImages(project.images)
+  }
 }
 
 const closeModal = () => {
@@ -162,7 +174,17 @@ onMounted(() => {
         >
           <!-- Project Image/Placeholder -->
           <div class="project-image">
-            <div class="project-placeholder" :style="{ background: `linear-gradient(135deg, ${project.color}30, ${project.color}10)` }">
+            <img 
+              v-if="project.images && project.images.length > 0" 
+              :src="project.images[0]" 
+              :alt="project.title"
+              class="project-img"
+            />
+            <div 
+              v-else 
+              class="project-placeholder" 
+              :style="{ background: `linear-gradient(135deg, ${project.color}30, ${project.color}10)` }"
+            >
               <span class="project-number">{{ String(project.id).padStart(2, '0') }}</span>
             </div>
           </div>
@@ -330,6 +352,17 @@ onMounted(() => {
   position: relative;
   height: 180px;
   overflow: hidden;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-img {
+  transform: scale(1.05);
 }
 
 .project-placeholder {
