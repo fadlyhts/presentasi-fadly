@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue'
 import { ArrowDown, Sparkles } from 'lucide-vue-next'
 import GridDistortion from './GridDistortion.vue'
-import backgroundImage from '@/assets/background.png'
+import backgroundImage from '@/assets/background3.png'
 
 const isVisible = ref(false)
 
@@ -45,7 +45,7 @@ onMounted(() => {
 
       <!-- Main Title -->
       <h1 class="hero-title">
-        <span class="hero-title-line">Project</span>
+        <span class="hero-title-line hero-title-big">Project</span>
         <span class="hero-title-line gradient-text">Charter</span>
       </h1>
 
@@ -53,14 +53,6 @@ onMounted(() => {
       <div class="hero-presenter">
         <span class="hero-presenter-label">Presented by</span>
         <h2 class="hero-presenter-name">Ahmad Fadli Hutasuhut</h2>
-      </div>
-
-      <!-- Tech Stack -->
-      <div class="hero-tech">
-        <span class="tech-badge">Vue.js</span>
-        <span class="tech-badge">Vue Bits</span>
-        <span class="tech-badge">Shadcn Vue</span>
-        <span class="tech-badge">Three.js</span>
       </div>
 
       <!-- Scroll Indicator -->
@@ -130,20 +122,20 @@ onMounted(() => {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(16, 185, 129, 0.1);
-  border: 1px solid rgba(16, 185, 129, 0.3);
+  background: rgba(16, 185, 129, 0.3);
+  border: 1px solid rgba(16, 185, 129, 0.5);
   padding: 8px 20px;
   border-radius: 9999px;
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--color-primary-light);
+  color: white;
   margin-bottom: 32px;
   animation: pulse-glow 3s ease-in-out infinite;
   backdrop-filter: blur(10px);
 }
 
 .hero-title {
-  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-size: clamp(2rem, 6vw, 4rem);
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 24px;
@@ -154,6 +146,10 @@ onMounted(() => {
   display: block;
 }
 
+.hero-title-big {
+  font-size: clamp(3.5rem, 12vw, 7rem);
+}
+
 .hero-presenter {
   margin-bottom: 40px;
 }
@@ -161,10 +157,11 @@ onMounted(() => {
 .hero-presenter-label {
   display: block;
   font-size: 0.9rem;
-  color: var(--color-text-secondary);
+  color: white;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   margin-bottom: 8px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-presenter-name {
@@ -203,18 +200,20 @@ onMounted(() => {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   background: none;
   border: none;
-  color: var(--color-text-secondary);
+  color: white;
   cursor: pointer;
-  font-size: 0.875rem;
-  font-weight: 500;
-  transition: color 0.3s ease;
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .scroll-indicator:hover {
-  color: var(--color-primary-light);
+  color: var(--color-primary);
+  transform: translateY(3px);
 }
 
 .scroll-arrow {

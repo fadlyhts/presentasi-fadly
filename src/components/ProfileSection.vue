@@ -54,6 +54,26 @@ onMounted(() => {
               <span>fadly@fadlyhts.my.id</span>
             </div>
           </div>
+
+          <div class="profile-divider"></div>
+
+          <!-- Skills -->
+          <div class="profile-skills">
+            <h4 class="skills-title">Skills</h4>
+            <div class="skills-list">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Vue.js</span>
+              <span class="skill-tag">Express.js</span>
+              <span class="skill-tag">Laravel</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">FastAPI</span>
+              <span class="skill-tag">Machine Learning</span>
+              <span class="skill-tag">Artificial Intelligence</span>
+              <span class="skill-tag">DevOps</span>
+            </div>
+          </div>
         </div>
 
         <!-- Pengalaman Card -->
@@ -326,5 +346,40 @@ onMounted(() => {
     padding: 2px 10px;
     border-radius: 12px;
   }
+}
+
+/* Skills inside Profile Card */
+.profile-skills {
+  margin-top: 8px;
+}
+
+.skills-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skill-tag {
+  padding: 4px 10px;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(52, 211, 153, 0.1));
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.25), rgba(52, 211, 153, 0.2));
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
 }
 </style>
