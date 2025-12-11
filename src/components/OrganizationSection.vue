@@ -39,6 +39,7 @@ onMounted(() => {
               <Users :size="28" />
             </div>
             <h3 class="org-title">Kepala Divisi Pengadaan dan Teknologi Informasi</h3>
+            <p class="org-name">Ivan Gusmawan</p>
           </div>
         </div>
 
@@ -67,6 +68,7 @@ onMounted(() => {
                 <Users :size="22" />
               </div>
               <h3 class="org-title">Kepala Sub Divisi Tata Kelola dan Pengembangan TI</h3>
+              <p class="org-name">Wisnuaji Gagat Priambada</p>
             </div>
             
             <!-- Connector to Asisten -->
@@ -80,6 +82,7 @@ onMounted(() => {
                 <Users :size="18" />
               </div>
               <h3 class="org-title">Asisten Pengembangan TI</h3>
+              <p class="org-name">Andri Maulana</p>
             </div>
           </div>
           
@@ -258,6 +261,19 @@ onMounted(() => {
 
 .org-card-asisten .org-title {
   font-size: 0.8rem;
+}
+
+.org-name {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.org-card-head .org-name {
+  font-size: 0.9rem;
+  color: var(--color-primary);
+  font-weight: 600;
 }
 
 @media (max-width: 1024px) {
