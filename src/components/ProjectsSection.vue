@@ -23,6 +23,7 @@ const projects = [
       '/projects/pica/zonakuadran.png',
       '/projects/pica/rankpabrik.png',
       '/projects/pica/problem-identification.png',
+      '/projects/pica/problem-identification2.png',
       '/projects/pica/correctiveaction.png',
       '/projects/pica/rata-rata-tertimbang.png',
       '/projects/pica/sentimenproduk.png'
