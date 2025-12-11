@@ -107,6 +107,26 @@ onMounted(() => {
           </div>
         </div>
       </div>
+
+      <!-- Fungsi Pengembangan TI Section -->
+      <div class="function-section" :class="{ 'visible': isVisible }">
+        <h3 class="function-title">
+          <span class="gradient-text">Fungsi Pengembangan TI</span>
+        </h3>
+        
+        <div class="function-grid">
+          <div class="function-card glass-card">
+            <h4 class="function-card-title">Mengapa TI Dibutuhkan?</h4>
+            <ul class="function-list">
+              <li>Meningkatkan efisiensi operasional melalui otomatisasi proses bisnis</li>
+              <li>Menyediakan data real-time untuk pengambilan keputusan yang akurat</li>
+              <li>Mengintegrasikan sistem antar unit kerja untuk kolaborasi yang lebih baik</li>
+              <li>Menjaga keamanan data dan informasi perusahaan</li>
+              <li>Mendukung transformasi digital untuk daya saing perusahaan</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -318,6 +338,82 @@ onMounted(() => {
   
   .connector-vertical {
     height: 30px;
+  }
+}
+
+/* Function Section Styles */
+.function-section {
+  margin-top: 60px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s;
+}
+
+.function-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.function-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.function-grid {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.function-card {
+  padding: 28px;
+}
+
+.function-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+
+.function-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.function-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.function-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.function-list li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .function-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .function-section {
+    margin-top: 40px;
   }
 }
 </style>

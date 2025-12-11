@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection.vue'
 import ProfileSection from './components/ProfileSection.vue'
 import OrganizationSection from './components/OrganizationSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
+import ThankYouSection from './components/ThankYouSection.vue'
 import Footer from './components/Footer.vue'
 </script>
 
@@ -18,6 +19,7 @@ import Footer from './components/Footer.vue'
       <ProfileSection />
       <OrganizationSection />
       <ProjectsSection />
+      <ThankYouSection />
     </main>
     
     <!-- Footer -->
