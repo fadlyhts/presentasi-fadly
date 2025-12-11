@@ -14,18 +14,18 @@ const projects = [
     longDescription: 'Mengembangkan modul Off Farm Teh pada sistem PICA KATEKO Holding, meliputi Dashboard Eksekutif, Self Assessment Pabrik Teh, Problem Identification, dan Corrective Action untuk monitoring kinerja pabrik teh. Membangun fitur analisis Zona Kuadran, Klusterisasi, dan Ranking Pabrik Teh untuk evaluasi performa produk teh.',
     technologies: ['Laravel 12', 'Vue.js 3', 'Inertia.js', 'Tailwind CSS', 'ApexCharts', 'Leaflet Maps', 'MySQL'],
     images: [
-      '/src/assets/projects/pica/dashboard.png',
-      '/src/assets/projects/pica/informasi.png',
-      '/src/assets/projects/pica/dashboardeksekutif.png',
-      '/src/assets/projects/pica/petapabrik.png',
-      '/src/assets/projects/pica/kinerjapabrik.png',
-      '/src/assets/projects/pica/klusterisasipica.png',
-      '/src/assets/projects/pica/zonakuadran.png',
-      '/src/assets/projects/pica/rankpabrik.png',
-      '/src/assets/projects/pica/problem-identification.png',
-      '/src/assets/projects/pica/correctiveaction.png',
-      '/src/assets/projects/pica/rata-rata-tertimbang.png',
-      '/src/assets/projects/pica/sentimenproduk.png'
+      '/projects/pica/dashboard.png',
+      '/projects/pica/informasi.png',
+      '/projects/pica/dashboardeksekutif.png',
+      '/projects/pica/petapabrik.png',
+      '/projects/pica/kinerjapabrik.png',
+      '/projects/pica/klusterisasipica.png',
+      '/projects/pica/zonakuadran.png',
+      '/projects/pica/rankpabrik.png',
+      '/projects/pica/problem-identification.png',
+      '/projects/pica/correctiveaction.png',
+      '/projects/pica/rata-rata-tertimbang.png',
+      '/projects/pica/sentimenproduk.png'
     ],
     link: 'https://picakateko.holding-perkebunan.com/',
     color: '#10b981'
@@ -46,13 +46,13 @@ const projects = [
 • Soft Delete: Menambahkan fitur soft delete objek sehingga data tidak terhapus permanen dan dapat di-restore jika diperlukan.`,
     technologies: ['CodeIgniter 4', 'Bootstrap 5', 'MySQL', 'PHPSpreadsheet', 'jQuery'],
     images: [
-      '/src/assets/projects/divestasi/gambar1.png',
-      '/src/assets/projects/divestasi/gambar2.png',
-      '/src/assets/projects/divestasi/gambar3.png',
-      '/src/assets/projects/divestasi/gambar4.png',
-      '/src/assets/projects/divestasi/gambar5.png',
-      '/src/assets/projects/divestasi/gambar6.png',
-      '/src/assets/projects/divestasi/gambar7.png'
+      '/projects/divestasi/gambar1.png',
+      '/projects/divestasi/gambar2.png',
+      '/projects/divestasi/gambar3.png',
+      '/projects/divestasi/gambar4.png',
+      '/projects/divestasi/gambar5.png',
+      '/projects/divestasi/gambar6.png',
+      '/projects/divestasi/gambar7.png'
     ],
     link: 'https://aset-dives-dev.ptpn1.co.id/',
     color: '#06b6d4'
@@ -74,11 +74,11 @@ const projects = [
     longDescription: 'Aplikasi web fullstack untuk pengelolaan dokumen penyidikan yang mencakup manajemen Laporan Polisi, Surat Perintah Penyidikan, Berita Acara, dan Aset. Dilengkapi fitur upload & preview dokumen PDF serta sistem autentikasi dengan role-based access control.',
     technologies: ['React', 'Vite', 'Express.js', 'MySQL'],
     images: [
-      '/src/assets/projects/sibakti/login.png',
-      '/src/assets/projects/sibakti/lp.png',
-      '/src/assets/projects/sibakti/sprindik.png',
-      '/src/assets/projects/sibakti/beritaacara.png',
-      '/src/assets/projects/sibakti/aset.png'
+      '/projects/sibakti/login.png',
+      '/projects/sibakti/lp.png',
+      '/projects/sibakti/sprindik.png',
+      '/projects/sibakti/beritaacara.png',
+      '/projects/sibakti/aset.png'
     ],
     link: null,
     color: '#f59e0b'
