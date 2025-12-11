@@ -70,7 +70,7 @@ const projects = [
   },
   {
     id: 4,
-    title: 'SI-BAKTI - External',
+    title: 'SI-BAKTI',
     description: 'Aplikasi web fullstack untuk pengelolaan dokumen penyidikan dengan manajemen Laporan Polisi dan Berita Acara.',
     longDescription: 'Aplikasi web fullstack untuk pengelolaan dokumen penyidikan yang mencakup manajemen Laporan Polisi, Surat Perintah Penyidikan, Berita Acara, dan Aset. Dilengkapi fitur upload & preview dokumen PDF serta sistem autentikasi dengan role-based access control.',
     technologies: ['React', 'Vite', 'Express.js', 'MySQL'],
