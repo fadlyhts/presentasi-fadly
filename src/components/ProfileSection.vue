@@ -51,7 +51,7 @@ onMounted(() => {
             </div>
             <div class="info-item">
               <Mail :size="20" class="info-icon" />
-              <span>fadly@email.com</span>
+              <span>fadly@fadlyhts.my.id</span>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ onMounted(() => {
               <div class="exp-right">
                 <h5 class="exp-role">IT & Systems Intern</h5>
                 <p class="exp-company">PT. Agincourt Resources</p>
-                <p class="exp-desc">Dukungan IT, Infrastruktur Jaringan, Sistem Penghitung Penumpang IoT</p>
+                <p class="exp-desc">IT Support, Infrastruktur Jaringan, Sistem Penghitung Penumpang Berbasis IoT</p>
                 <div class="exp-tags">
                   <span>React</span>
                   <span>Node.js</span>
