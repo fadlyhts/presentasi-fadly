@@ -12,7 +12,7 @@ const triggerExplosion = () => {
   // Create particles
   const emojis = ['🌸', '🌺', '🌷', '💐', '🌻', '🌹', '✨', '⭐', '💫', '🎉', '🎊', '💖']
   
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 150; i++) {
     particles.value.push({
       id: i,
       emoji: emojis[Math.floor(Math.random() * emojis.length)],
