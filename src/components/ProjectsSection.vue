@@ -61,10 +61,20 @@ const projects = [
   {
     id: 3,
     title: 'Chatbot AI RAG WhatsApp',
-    description: 'Sistem chatbot WhatsApp cerdas dengan kemampuan Retrieval-Augmented Generation untuk knowledge base dokumen perusahaan.',
-    longDescription: 'Membangun chatbot WhatsApp dengan RAG pipeline untuk intelligent document retrieval dan contextual response generation. Document processing dengan support PDF, DOCX, dan OCR. Integrasi WhatsApp via webhook, Admin dashboard dengan monitoring statistik, Background job processing dengan Redis queue.',
+    description: 'Sistem chatbot WhatsApp cerdas yang dapat menjawab pertanyaan berdasarkan dokumen-dokumen perusahaan secara otomatis.',
+    longDescription: `Chatbot AI berbasis WhatsApp yang mampu menjawab pertanyaan pengguna secara cerdas berdasarkan dokumen-dokumen yang telah diunggah ke sistem.
+• Cara Kerja: Pengguna cukup mengirim pertanyaan via WhatsApp, dan chatbot akan mencari jawaban yang relevan dari database dokumen, kemudian menyusun jawaban yang mudah dipahami.
+• Mendukung Berbagai Format: Sistem dapat membaca dan memahami dokumen PDF, Word (DOCX), bahkan gambar dokumen melalui teknologi OCR (pengenalan teks dari gambar).
+• Dashboard Admin: Tersedia halaman admin untuk mengelola dokumen, melihat statistik penggunaan chatbot, dan memantau riwayat percakapan.
+• Integrasi WhatsApp: Terhubung langsung dengan WhatsApp sehingga karyawan dapat bertanya kapan saja melalui aplikasi yang sudah familiar.
+• Pemrosesan di Latar Belakang: Dokumen besar diproses secara otomatis di background tanpa mengganggu kinerja sistem utama.`,
     technologies: ['Python', 'FastAPI', 'LangChain', 'Vue 3', 'TypeScript', 'Qdrant', 'Docker', 'Redis'],
-    images: [],
+    images: [
+      '/projects/chatbot/dashboard.png',
+      '/projects/chatbot/documents.png',
+      '/projects/chatbot/chat1.png',
+      '/projects/chatbot/chat2.png'
+    ],
     link: null,
     color: '#8b5cf6'
   },
