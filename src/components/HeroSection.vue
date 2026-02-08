@@ -37,21 +37,21 @@ onMounted(() => {
     </div>
 
     <div class="hero-content" :class="{ 'visible': isVisible }">
-      <!-- Decorative Elements -->
+      <!-- Badge -->
       <div class="hero-badge">
         <Sparkles :size="16" class="text-emerald-400" />
-        <span>Presentasi Magenta Batch 2 - 2025</span>
+        <span>Open to Work</span>
       </div>
 
       <!-- Main Title -->
       <h1 class="hero-title">
-        <span class="hero-title-line hero-title-big">Project</span>
-        <span class="hero-title-line gradient-text">Charter</span>
+        <span class="hero-title-line">Creative</span>
+        <span class="hero-title-line gradient-text">Developer</span>
       </h1>
 
-      <!-- Presenter Name -->
+      <!-- Subtitle -->
       <div class="hero-presenter">
-        <span class="hero-presenter-label">Presented by</span>
+        <span class="hero-presenter-label">Hello, I'm</span>
         <h2 class="hero-presenter-name">Ahmad Fadli Hutasuhut</h2>
       </div>
 
@@ -135,7 +135,7 @@ onMounted(() => {
 }
 
 .hero-title {
-  font-size: clamp(2rem, 6vw, 4rem);
+  font-size: clamp(3rem, 10vw, 6rem);
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 24px;

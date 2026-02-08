@@ -38,7 +38,7 @@ const techStack = [
         <p class="copyright">
           Made with <Heart :size="16" class="heart-icon" /> by Fadly
         </p>
-        <p class="year">© {{ new Date().getFullYear() }} Presentasi Magang</p>
+        <p class="year">© {{ new Date().getFullYear() }} Ahmad Fadli Hutasuhut - Portfolio</p>
       </div>
     </div>
   </footer>

@@ -14,9 +14,9 @@ const isScrolled = ref(false)
 
 const navLinks = [
   { name: 'Home', href: '#home' },
-  { name: 'Profil', href: '#profil' },
-  { name: 'Organisasi', href: '#organisasi' },
-  { name: 'Projects', href: '#projects' }
+  { name: 'About', href: '#profil' },
+  { name: 'Projects', href: '#projects' },
+  { name: 'Contact', href: '#contact' }
 ]
 
 const toggleMenu = () => {
@@ -44,12 +44,10 @@ onMounted(() => {
     :class="{ 'navbar-scrolled': isScrolled }"
   >
     <div class="navbar-container">
-      <!-- Left Logos -->
-      <div class="navbar-logos navbar-logos-left">
-        <img :src="logoPtpn1" alt="PTPN 1" class="nav-logo" />
-        <img :src="logoHolding" alt="Holding Perkebunan" class="nav-logo" />
-        <img :src="logoDanantara" alt="Danantara" class="nav-logo" />
-      </div>
+      <!-- Logo -->
+      <a href="#" class="navbar-logo" @click.prevent="scrollToSection('#home')">
+        Fadly.
+      </a>
 
       <!-- Desktop Navigation -->
       <div class="navbar-links">
@@ -62,12 +60,6 @@ onMounted(() => {
         >
           {{ link.name }}
         </a>
-      </div>
-
-      <!-- Right Logos -->
-      <div class="navbar-logos navbar-logos-right">
-        <img :src="logoFhci" alt="FHCI" class="nav-logo" />
-        <img :src="logoMagenta" alt="Magenta" class="nav-logo" />
       </div>
 
       <!-- Mobile Menu Button -->
@@ -120,16 +112,20 @@ onMounted(() => {
   gap: 24px;
 }
 
-.navbar-logos {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  text-decoration: none;
+  background: linear-gradient(135deg, var(--color-primary), #34d399);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: opacity 0.3s ease;
 }
 
-.nav-logo {
-  height: 40px;
-  width: auto;
-  object-fit: contain;
+.navbar-logo:hover {
+  opacity: 0.8;
 }
 
 .navbar-links {

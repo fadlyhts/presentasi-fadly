@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import { Heart, Sparkles } from 'lucide-vue-next'
+import { Heart, Sparkles, Mail, Linkedin, MessageCircle } from 'lucide-vue-next'
 
 const isExploding = ref(false)
 const particles = ref([])
@@ -33,7 +33,7 @@ const triggerExplosion = () => {
 </script>
 
 <template>
-  <section id="thankyou" class="section thankyou-section">
+  <section id="contact" class="section thankyou-section">
     <div class="container">
       <div class="thankyou-content">
         <div class="thankyou-icon">
@@ -41,16 +41,32 @@ const triggerExplosion = () => {
         </div>
         
         <h2 class="thankyou-title">
-          <span class="gradient-text">Terima Kasih</span>
+          <span class="gradient-text">Let's Connect</span>
         </h2>
         
         <p class="thankyou-subtitle">
-          Atas perhatian dan kesempatan yang telah diberikan
+          Have a project in mind or want to collaborate? <br>
+          Feel free to reach out!
         </p>
+
+        <div class="social-links">
+          <a href="mailto:fadlyhutasuhut1305@gmail.com" class="social-btn">
+            <Mail :size="24" />
+            <span>Email</span>
+          </a>
+          <a href="https://www.linkedin.com/in/ahmad-fadli-hutasuhut-0768ba17b/" target="_blank" class="social-btn">
+            <Linkedin :size="24" />
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://wa.me/6285156121852" target="_blank" class="social-btn">
+            <MessageCircle :size="24" />
+            <span>WhatsApp</span>
+          </a>
+        </div>
         
         <button class="celebration-btn" @click="triggerExplosion" :disabled="isExploding">
           <Heart :size="20" />
-          <span>{{ isExploding ? 'Celebrating!' : 'Celebrate 🎉' }}</span>
+          <span>{{ isExploding ? 'Celebrating!' : 'Celebrate Portfolio 🎉' }}</span>
         </button>
       </div>
       
@@ -122,6 +138,36 @@ const triggerExplosion = () => {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: var(--color-text-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.social-btn:hover {
+  background: rgba(16, 185, 129, 0.1);
+  border-color: rgba(16, 185, 129, 0.3);
+  transform: translateY(-3px);
+  color: var(--color-primary);
 }
 
 .celebration-btn {

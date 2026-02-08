@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import { Briefcase, GraduationCap, Mail } from 'lucide-vue-next'
+import { GraduationCap, Mail } from 'lucide-vue-next'
 import profilePhoto from '@/assets/fadly.jpg'
 
 const isVisible = ref(false)
@@ -46,12 +46,8 @@ onMounted(() => {
               <span>Universitas Negeri Jakarta</span>
             </div>
             <div class="info-item">
-              <Briefcase :size="20" class="info-icon" />
-              <span>DPTI</span>
-            </div>
-            <div class="info-item">
               <Mail :size="20" class="info-icon" />
-              <span>fadly@fadlyhts.my.id</span>
+              <span>fadlyhutasuhut1305@gmail.com</span>
             </div>
           </div>
 
