@@ -89,12 +89,13 @@ onMounted(() => {
               <div class="exp-right">
                 <h5 class="exp-role">IT Development Intern</h5>
                 <p class="exp-company">PT. Perkebunan Nusantara I</p>
-                <p class="exp-desc">Dashboard PICA Kateko, Chatbot AI RAG WhatsApp, Sistem Aset Monika</p>
+                <p class="exp-desc">Dashboard PICA Kateko, Sistem Aset Monika, D-Farm, Operator Multimedia</p>
                 <div class="exp-tags">
                   <span>Laravel</span>
                   <span>Vue.js</span>
                   <span>Python</span>
                   <span>FastAPI</span>
+                  <span>Event Support</span>
                 </div>
               </div>
             </div>

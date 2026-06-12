@@ -10,8 +10,8 @@ const projects = [
   {
     id: 1,
     title: 'PICA Kateko',
-    description: 'Sistem monitoring kinerja pabrik teh dengan Dashboard Eksekutif, Self Assessment, dan Problem Identification & Corrective Action.',
-    longDescription: 'Mengembangkan modul Off Farm Teh pada sistem PICA KATEKO Holding, meliputi Dashboard Eksekutif, Self Assessment Pabrik Teh, Problem Identification, dan Corrective Action untuk monitoring kinerja pabrik teh. Membangun fitur analisis Zona Kuadran, Klusterisasi, dan Ranking Pabrik Teh untuk evaluasi performa produk teh.',
+    description: 'Sistem monitoring kinerja On Farm & Off Farm untuk komoditas Kopi dan Teh dengan Dashboard Eksekutif, Kuadran, dan Problem Identification & Corrective Action.',
+    longDescription: 'Mengembangkan modul On Farm dan Off Farm untuk komoditas Kopi dan Teh pada sistem PICA KATEKO Holding. Fitur utama yang dikembangkan meliputi Input Corrective Action (CA), Analisis Zona Kuadran, Report PICA, serta Identifikasi Masalah. Sistem ini juga dilengkapi dengan Dashboard Eksekutif, Self Assessment, Klusterisasi, dan Ranking untuk evaluasi performa komoditas secara menyeluruh.',
     technologies: ['Laravel 12', 'Vue.js 3', 'Inertia.js', 'Tailwind CSS', 'ApexCharts', 'Leaflet Maps', 'MySQL'],
     images: [
       '/projects/pica/dashboard.png',
@@ -26,7 +26,14 @@ const projects = [
       '/projects/pica/problem-identification2.png',
       '/projects/pica/correctiveaction.png',
       '/projects/pica/rata-rata-tertimbang.png',
-      '/projects/pica/sentimenproduk.png'
+      '/projects/pica/sentimenproduk.png',
+      '/projects/pica/on-farm/kopi-pemeliharaan.png',
+      '/projects/pica/on-farm/pica-approval-teh.png',
+      '/projects/pica/on-farm/pica-reports-kopi.png',
+      '/projects/pica/on-farm/dashboard-teh-kuadran2.png',
+      '/projects/pica/on-farm/dashboar-teh-kuadran.png',
+      '/projects/pica/on-farm/identifikasi-masalah-teh.png',
+      '/projects/pica/on-farm/kopi-panen.png'
     ],
     link: 'https://picakateko.holding-perkebunan.com/',
     color: '#10b981'
@@ -60,49 +67,35 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Chatbot AI RAG WhatsApp',
-    description: 'Sistem chatbot WhatsApp cerdas yang dapat menjawab pertanyaan berdasarkan dokumen-dokumen perusahaan secara otomatis.',
-    longDescription: `Chatbot AI berbasis WhatsApp yang mampu menjawab pertanyaan pengguna secara cerdas berdasarkan dokumen-dokumen yang telah diunggah ke sistem.
-• Cara Kerja: Pengguna cukup mengirim pertanyaan via WhatsApp, dan chatbot akan mencari jawaban yang relevan dari database dokumen, kemudian menyusun jawaban yang mudah dipahami.
-• Mendukung Berbagai Format: Sistem dapat membaca dan memahami dokumen PDF, Word (DOCX), bahkan gambar dokumen melalui teknologi OCR (pengenalan teks dari gambar).
-• Dashboard Admin: Tersedia halaman admin untuk mengelola dokumen, melihat statistik penggunaan chatbot, dan memantau riwayat percakapan.
-• Integrasi WhatsApp: Terhubung langsung dengan WhatsApp sehingga karyawan dapat bertanya kapan saja melalui aplikasi yang sudah familiar.
-• Pemrosesan di Latar Belakang: Dokumen besar diproses secara otomatis di background tanpa mengganggu kinerja sistem utama.`,
-    technologies: ['Python', 'FastAPI', 'LangChain', 'Vue 3', 'TypeScript', 'Qdrant', 'Docker', 'Redis'],
+    title: 'D-Farm - PTPN 1',
+    description: 'Sistem monitoring dan pencatatan hasil produksi karet.',
+    longDescription: 'Mengembangkan fitur history produksi karet pada sistem D-Farm PTPN 1 untuk memudahkan pemantauan dan evaluasi data produksi secara historis.',
+    technologies: ['Laravel', 'Vue.js', 'MySQL'],
     images: [
-      '/projects/chatbot/dashboard.png',
-      '/projects/chatbot/documents.png',
-      '/projects/chatbot/chat1.png',
-      '/projects/chatbot/chat2.png'
+      '/projects/dfarm/history-karet.png'
     ],
     link: null,
     color: '#8b5cf6'
   },
   {
     id: 4,
-    title: 'SI-BAKTI',
-    description: 'Aplikasi web fullstack untuk pengelolaan dokumen penyidikan dengan manajemen Laporan Polisi dan Berita Acara.',
-    longDescription: 'Aplikasi web fullstack untuk pengelolaan dokumen penyidikan yang mencakup manajemen Laporan Polisi, Surat Perintah Penyidikan, Berita Acara, dan Aset. Dilengkapi fitur upload & preview dokumen PDF serta sistem autentikasi dengan role-based access control.',
-    technologies: ['React', 'Vite', 'Express.js', 'MySQL'],
+    title: 'Operator Acara - PTPN 1',
+    description: 'Dukungan operasional  dan sistem presentasi untuk berbagai acara besar korporat PTPN 1.',
+    longDescription: `Turut serta membantu tim dalam persiapan dan pengelolaan kelancaran teknis presentasi, sistem audio-visual, serta penayangan materi multimedia pada berbagai event krusial di lingkungan PTPN 1. Berkolaborasi secara aktif guna memberikan dukungan operasional yang optimal demi menyukseskan rangkaian acara berskala korporat, antara lain:
+• Pasca Merger PTPN 1
+• Pisah Sambut Dewan Komisaris PTPN 1
+• Buka Puasa Bersama dan Kasmaran PTPN 1
+• Launching MAG Magazine PTPN 1
+
+Memastikan sistem berfungsi agar seluruh agenda berjalan tanpa kendala teknis.`,
+    technologies: ['Event Support', 'Multimedia', 'Audio Visual', 'Presentation'],
     images: [
-      '/projects/sibakti/login.png',
-      '/projects/sibakti/lp.png',
-      '/projects/sibakti/sprindik.png',
-      '/projects/sibakti/beritaacara.png',
-      '/projects/sibakti/aset.png'
+      '/projects/operator/IMG_4723.jpg',
+      '/projects/operator/IMG_5776.jpg',
+      '/projects/operator/IMG_6185.jpg'
     ],
     link: null,
     color: '#f59e0b'
-  },
-  {
-    id: 5,
-    title: 'Rubber Leaf Disease API',
-    description: 'RESTful API untuk identifikasi penyakit daun karet menggunakan model ConvNextV2 dan rekomendasi dari Google Gemini.',
-    longDescription: 'Fine-tuned model ConvNextV2 untuk mengidentifikasi penyakit daun karet. RESTful API menggunakan FastAPI dengan integrasi Google Gemini API untuk memberikan rekomendasi penanganan yang relevan. Deployed menggunakan Docker.',
-    technologies: ['Python', 'FastAPI', 'ConvNextV2', 'Google Gemini', 'Docker'],
-    images: [],
-    link: null,
-    color: '#ec4899'
   }
 ]
 

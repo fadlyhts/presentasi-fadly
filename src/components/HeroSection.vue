@@ -40,7 +40,7 @@ onMounted(() => {
       <!-- Decorative Elements -->
       <div class="hero-badge">
         <Sparkles :size="16" class="text-emerald-400" />
-        <span>Presentasi Magenta Batch 2 - 2025</span>
+        <span>Presentasi Magenta Batch 3 - 2026</span>
       </div>
 
       <!-- Main Title -->
