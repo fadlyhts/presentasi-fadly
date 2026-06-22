@@ -119,7 +119,7 @@ onMounted(() => {
                 <span class="exp-date">Mar - Jul 2025</span>
               </div>
               <div class="exp-right">
-                <h5 class="exp-role">AI Engineer</h5>
+                <h5 class="exp-role">Artificial Intelligence Development</h5>
                 <p class="exp-company">Infinite Learning Indonesia</p>
                 <p class="exp-desc">Machine Learning, Deep Learning, NLP, Computer Vision, RAG dengan LLM</p>
                 <div class="exp-tags">
