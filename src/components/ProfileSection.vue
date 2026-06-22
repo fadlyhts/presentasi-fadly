@@ -80,7 +80,7 @@ onMounted(() => {
             <!-- PTPN I -->
             <div class="exp-item">
               <div class="exp-left">
-                <span class="exp-date">Jul 2025 - Sekarang</span>
+                <span class="exp-date">Jul 2025 - Juni 2026</span>
               </div>
               <div class="exp-right">
                 <h5 class="exp-role">IT Development Intern</h5>
