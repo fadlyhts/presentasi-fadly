@@ -70,7 +70,7 @@ const projects = [
     title: 'D-Farm - PTPN 1',
     description: 'Sistem monitoring dan pencatatan hasil produksi karet.',
     longDescription: 'Mengembangkan fitur history produksi karet pada sistem D-Farm PTPN 1 untuk memudahkan pemantauan dan evaluasi data produksi secara historis.',
-    technologies: ['Laravel', 'Vue.js', 'MySQL'],
+    technologies: ['Vue.js', 'MySQL'],
     images: [
       '/projects/dfarm/history-karet.png'
     ],
