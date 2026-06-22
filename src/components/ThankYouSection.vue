@@ -54,7 +54,7 @@ const triggerExplosion = () => {
             <Mail :size="24" />
             <span>Email</span>
           </a>
-          <a href="https://www.linkedin.com/in/ahmad-fadli-hutasuhut-0768ba17b/" target="_blank" class="social-btn">
+          <a href="https://www.linkedin.com/in/ahmad-fadli-h-0768ba17b/" target="_blank" class="social-btn">
             <Linkedin :size="24" />
             <span>LinkedIn</span>
           </a>
