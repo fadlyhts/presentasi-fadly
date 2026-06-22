@@ -10,8 +10,8 @@ const projects = [
   {
     id: 1,
     title: 'PICA Kateko',
-    description: 'Sistem monitoring kinerja pabrik teh dengan Dashboard Eksekutif, Self Assessment, dan Problem Identification & Corrective Action.',
-    longDescription: 'Mengembangkan modul Off Farm Teh pada sistem PICA KATEKO Holding, meliputi Dashboard Eksekutif, Self Assessment Pabrik Teh, Problem Identification, dan Corrective Action untuk monitoring kinerja pabrik teh. Membangun fitur analisis Zona Kuadran, Klusterisasi, dan Ranking Pabrik Teh untuk evaluasi performa produk teh.',
+    description: 'Sistem monitoring kinerja On Farm & Off Farm untuk komoditas Teh dan Kopi dengan Dashboard Eksekutif, Kuadran, dan Problem Identification & Corrective Action.',
+    longDescription: 'Dipercaya untuk mengembangkan dan mengelola penuh modul On Farm dan Off Farm untuk komoditas Teh pada sistem PICA KATEKO Holding. Selain itu, turut mengembangkan modul Masa Panen dan Masa Pemeliharaan untuk komoditas Kopi. Fitur utama yang dikembangkan meliputi Input Corrective Action (CA), Analisis Zona Kuadran, Report PICA, Identifikasi Masalah, serta Sistem Approval untuk evaluasi performa komoditas secara menyeluruh.',
     technologies: ['Laravel 12', 'Vue.js 3', 'Inertia.js', 'Tailwind CSS', 'ApexCharts', 'Leaflet Maps', 'MySQL'],
     images: [
       '/projects/pica/dashboard.png',
@@ -26,7 +26,15 @@ const projects = [
       '/projects/pica/problem-identification2.png',
       '/projects/pica/correctiveaction.png',
       '/projects/pica/rata-rata-tertimbang.png',
-      '/projects/pica/sentimenproduk.png'
+      '/projects/pica/sentimenproduk.png',
+      '/projects/pica/on-farm/kopi-pemeliharaan.png',
+      '/projects/pica/on-farm/pica-approval-teh.png',
+      '/projects/pica/on-farm/pica-reports-kopi.png',
+      '/projects/pica/on-farm/dashboard-teh-kuadran2.png',
+      '/projects/pica/on-farm/dashboar-teh-kuadran.png',
+      '/projects/pica/on-farm/identifikasi-masalah-teh.png',
+      '/projects/pica/on-farm/kopi-panen.png',
+      '/projects/pica/on-farm/approval.png'
     ],
     link: 'https://picakateko.holding-perkebunan.com/',
     color: '#10b981'
@@ -103,6 +111,38 @@ const projects = [
     images: [],
     link: null,
     color: '#ec4899'
+  },
+  {
+    id: 6,
+    title: 'Operator Acara - PTPN 1',
+    description: 'Dukungan operasional dan sistem presentasi untuk berbagai acara besar korporat PTPN 1.',
+    longDescription: `Turut membantu tim dalam menangani persiapan dan kelancaran teknis presentasi, sistem audio-visual, serta penayangan materi multimedia pada berbagai event krusial di lingkungan PTPN 1. Berkolaborasi secara aktif guna memberikan dukungan operasional yang optimal demi menyukseskan rangkaian acara berskala korporat, antara lain:
+• Pasca Merger PTPN 1
+• Pisah Sambut Dewan Komisaris PTPN 1
+• Buka Puasa Bersama dan Kasmaran PTPN 1
+• Launching MAG Magazine PTPN 1
+
+Memastikan sistem berfungsi agar seluruh agenda berjalan tanpa kendala teknis.`,
+    technologies: ['Event Support', 'Multimedia', 'Audio Visual', 'Presentation'],
+    images: [
+      '/projects/operator/IMG_4723.jpg',
+      '/projects/operator/IMG_5776.jpg',
+      '/projects/operator/IMG_6185.jpg'
+    ],
+    link: null,
+    color: '#8b5cf6'
+  },
+  {
+    id: 7,
+    title: 'D-Farm - PTPN 1',
+    description: 'Sistem monitoring dan pencatatan hasil produksi karet.',
+    longDescription: 'Mengembangkan fitur history produksi karet pada sistem D-Farm PTPN 1 untuk memudahkan pemantauan dan evaluasi data produksi secara historis.',
+    technologies: ['Laravel', 'Vue.js', 'MySQL'],
+    images: [
+      '/projects/dfarm/history-karet.png'
+    ],
+    link: null,
+    color: '#06b6d4'
   }
 ]
 

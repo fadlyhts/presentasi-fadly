@@ -13,7 +13,7 @@ IPK: 3.84/4.00
 PENGALAMAN 
  
 Divisi Pengadaan dan Teknologi Informasi Intern – PT. Perkebunan Nusantara I
-Juli 2025 – Sekarang
+Juli 2025 – Juni 2026
 Proyek : 
 •	PICA Kateko (Karet, Teh, Kopi) https://picakateko.holding-perkebunan.com/ 
 - Mengembangkan modul Off Farm Teh pada sistem PICA KATEKO Holding, meliputi Dashboard Eksekutif, Self Assessment Pabrik Teh, Problem Identification, dan Corrective Action untuk monitoring kinerja pabrik teh.
